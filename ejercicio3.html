@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Comparte tus viajes - Nueva York</title> 
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Estilo para la lista de navegación: sin viñetas y enlaces */
+        .seccion-nav {
+            list-style: disc; /* La imagen de referencia tiene viñetas */
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        .seccion-nav li {
+            margin-right: 0;
+        }
+
+        /* Estilos de texto y espaciado */
+        #descripcion p {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        /* Contenedor de la imagen principal */
+        figure {
+            margin: 10px 0;
+            padding: 0;
+        }
+        #descripcion img {
+            max-width: 100%;
+            height: auto;
+        }
+        figcaption {
+            font-style: italic;
+            margin-top: 5px;
+        }
+        
+        /* Estilo para las fotos relacionadas */
+        #fotos img {
+            margin-right: 10px;
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+        }
+        
+        /* Estilos del pie de página */
+        footer {
+            margin-top: 30px;
+            /* La imagen de referencia no tiene borde superior en el <footer>, lo quitamos */
+            padding-top: 10px;
+            border-top: 1px solid black; /* Se añade la línea al pie de página */
+        }
+        footer p {
+            margin: 2px 0;
+            font-size: 0.9em;
+        }
+        /* Estilos para el texto del copyright */
+        .copyright {
+            font-style: italic;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Comparte tus viajes</h1>
+    <h2>Nueva York - Central Park</h2>
+
+    <ul class="seccion-nav">
+        <li><a href="#descripcion">Descripción</a></li>
+        <li><a href="#fotos">Fotos relacionadas</a></li>
+        <li><a href="#comentarios">Comentarios</a></li>
+    </ul>
+
+    <section id="descripcion">
+        <h3>Descripción</h3>
+        <p>Foto de Randy Connolly</p>
+        
+        <p>Esta foto del Estanque del Conservatorio en <a href="#">Central Park en Ciudad de Nueva York</a> fue tomada en Octubre 22, 2021 con una cámara Canon EOS 30D.</p>
+
+        <figure>
+            <img src="central-park.jpg" alt="Estanque del Conservatorio en Central Park" width="600">
+            <figcaption>Estanque del Conservatorio en Central Park</figcaption>
+        </figure>
+
+        <p>
+            Compartir: 
+            <a href="#" title="Enviar esto a alguien">📧</a>
+            <a href="#" title="RSS">📰</a>
+            <a href="#" title="Twitter">🐦</a>
+            <a href="#" title="Facebook">📘</a>
+            <a href="#" title="Flickr">🟣</a>
+            </p>
+    </section>
+    
+    <hr> <section id="fotos">
+        <h3>Fotos relacionadas</h3>
+        <div>
+            <img src="related-square1.jpg" alt="Vista de Central Park 1">
+            <img src="related-square2.jpg" alt="Vista de Central Park 2">
+            <img src="related-square3.jpg" alt="Vista de Central Park 3">
+        </div>
+    </section>
+
+    <hr> <section id="comentarios">
+        <h3>Reseñas</h3>
+        
+        <h4>Por Ricardo 15 Septiembre, 2021</h4>
+        <p>Tranquilo con el HDR amigo</p>
+
+        <h4>Por Susana en 1 Octubre, 2021</h4>
+        <p>Amo Central Park</p>
+    </section>
+
+    <footer>
+        <p>
+            <a href="#">Inicio</a> | 
+            <a href="#">Navegación</a> | 
+            <a href="#">Buscar</a>
+        </p>
+        <p class="copyright">Copyright© 2021 Comparte Tus Viajes</p>
+    </footer>
+
+</body>
+</html>
